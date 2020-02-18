@@ -1,0 +1,43 @@
+    # league
+    by: summonerId
+    https://br1.api.riotgames.com/lol/league/v4/entries/by-summoner/OeD6Blb-RNIVbrDWyD-A-CkjASjDEwRqB1_VUSBbxRFQ
+    {
+        "queueType": "RANKED_FLEX_SR",
+        "summonerName": "N2 Brodin",
+        "hotStreak": false,
+        "wins": 11,
+        "veteran": false,
+        "losses": 13,
+        "rank": "IV",
+        "tier": "GOLD",
+        "inactive": false,
+        "freshBlood": false,
+        "leagueId": "73e72be9-7eac-474b-b170-4aef602c3cb8",
+        "summonerId": "OeD6Blb-RNIVbrDWyD-A-CkjASjDEwRqB1_VUSBbxRFQ",
+        "leaguePoints": 29
+    }
+
+"accountId": "WxNK0TowpX2o*ixHIiQBY6*-Re5nopj4ttHgEncmMi8",
+"id": "OeD6Blb-RNIVbrDWyD-A-CkjASjDEwRqB1_VUSBbxRFQ",
+
+    //////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#Matchs
+
+
+https://br1.api.riotgames.com/lol/match/v4/matchlists/by-account/accountID
+[
+           {
+            "lane": "TOP",
+            "gameId": 1845983162,
+            "champion": 17,
+            "platformId": "BR1",
+            "timestamp": 1580011414961,
+            "queue": 440,
+            "role": "SOLO",
+            "season": 13
+        },
+]
+
+queues: http://static.developer.riotgames.com/docs/lol/queues.json
