@@ -11,7 +11,7 @@ export default function Aside() {
         <AiFillHome size={26} />
         <span>Home</span>
       </SidebarLink>
-      <SidebarLink to="/">
+      <SidebarLink to="/teams">
         <GiThreeFriends size={26} />
         <span>Teams</span>
       </SidebarLink>

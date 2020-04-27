@@ -17,7 +17,7 @@
         "leaguePoints": 29
     }
 
-"accountId": "WxNK0TowpX2o*ixHIiQBY6*-Re5nopj4ttHgEncmMi8",
+"accountId": "WxNK0TowpX2o_ixHIiQBY6_-Re5nopj4ttHgEncmMi8",
 "id": "OeD6Blb-RNIVbrDWyD-A-CkjASjDEwRqB1_VUSBbxRFQ",
 
     //////////////////////////////////////////////////////////////////////////////////////////////
@@ -41,3 +41,5 @@ https://br1.api.riotgames.com/lol/match/v4/matchlists/by-account/accountID
 ]
 
 queues: http://static.developer.riotgames.com/docs/lol/queues.json
+
+http://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/rarity-gem-icons/

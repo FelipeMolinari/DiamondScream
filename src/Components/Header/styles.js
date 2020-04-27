@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Container = styled.header`
+  grid-area: header;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,7 +10,10 @@ export const Container = styled.header`
   width: 100%;
   height: 60px;
   border: 1px solid #eee;
-
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 100;
   div {
     margin-left: 26px;
 

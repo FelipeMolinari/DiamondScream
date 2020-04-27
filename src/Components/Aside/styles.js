@@ -2,16 +2,17 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 export const Container = styled.aside`
+  grid-area: aside;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: initial;
   background: #fff;
-  flex-shrink: 0;
-  height: 100%;
   border: 1px solid #eee;
   width: 252px;
   padding-top: 10px;
+  height: 100%;
+  position: fixed;
+  top: 60px;
 `;
 
 export const SidebarLink = styled(NavLink)`

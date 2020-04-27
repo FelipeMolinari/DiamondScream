@@ -12,9 +12,8 @@ function App() {
     <BrowserRouter>
       <GlobalStyles />
 
-      <Header />
-
       <Container>
+        <Header />
         <Aside />
         <Routes />
       </Container>

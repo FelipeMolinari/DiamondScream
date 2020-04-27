@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const api_key = "RGAPI-19e1af05-ee97-4462-a0fa-c7e57dda0c37";
+const api_key = "RGAPI-7f34889f-2e8a-4314-8fdd-8d76d6142a8d";
 
 const api = axios.create({
-  baseURL: "https://cors-anywhere.herokuapp.com/"
+  baseURL: "https://cors-anywhere.herokuapp.com/",
 });
 api.defaults.headers.common["X-Riot-Token"] = api_key;
 

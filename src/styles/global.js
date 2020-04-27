@@ -1,7 +1,12 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 252px 1fr;
+  grid-template-areas:
+    "header header"
+    "aside content";
   width: 100%;
   height: 100%;
 `;
@@ -15,11 +20,14 @@ export default createGlobalStyle`
   box-sizing: border-box;
   outline: 0px
 }
+
 html,
     body,
     #root {
       height: 100%;
     }
+
+
 body{
   background: #FCFCFC;
   -webkit-font-smoothing: antialiased;
